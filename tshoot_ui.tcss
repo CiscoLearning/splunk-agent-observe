@@ -1,0 +1,29 @@
+$brand: #d97757;
+
+Screen { background: #1a1a1a; }
+#log {
+    height: 1fr;
+    padding: 0 2;
+    scrollbar-color: $brand;
+    scrollbar-color-hover: #e8906f;
+    scrollbar-color-active: #e8906f;
+    scrollbar-background: #242424;
+    scrollbar-background-hover: #242424;
+    scrollbar-background-active: #242424;
+}
+#logo { color: $brand; padding: 1 0; }
+#welcome { border: round $brand; padding: 0 1; margin-bottom: 1; width: 80; }
+.user { color: #9a9a9a; margin-top: 1; }
+.thought { margin-top: 1; }
+.tool { text-style: bold; }
+.result { color: #8a8a8a; }
+.error { color: #e06c75; }
+.memory { color: $brand; margin-top: 1; }
+Markdown { margin: 1 0; padding: 0 1; background: #1a1a1a; border-left: tall $brand; }
+MarkdownH3 { color: $brand; }
+#status { color: $brand; height: 1; padding: 0 2; }
+Input { border: round #5a5a5a; margin: 0 1; background: #1a1a1a; }
+Input:focus { border: round $brand; }
+#footer { height: 1; padding: 0 2; color: #7a7a7a; }
+#footer-left { width: 1fr; }
+#footer-right { width: auto; }

@@ -1,0 +1,18 @@
+# Secrets: API keys, tokens, and the CML local passwords
+.env
+.cursor/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Run output
+*.log
